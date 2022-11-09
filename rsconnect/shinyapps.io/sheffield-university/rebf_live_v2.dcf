@@ -1,0 +1,11 @@
+name: rebf_live_v2
+title:
+username:
+account: sheffield-university
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7202510
+bundleId: 6417106
+url: https://sheffield-university.shinyapps.io/rebf_live_v2/
+when: 1666135179.78157
+lastSyncTime: 1666135179.78163

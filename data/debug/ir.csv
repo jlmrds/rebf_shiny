@@ -1,0 +1,97 @@
+lan,ss,type,start_year,end_year,value,unit
+Sheffield,Commercial Electricity,Gradient,2020,2050,-10,%
+Barnsley,Commercial Electricity,Gradient,2020,2050,-10,%
+Rotherham,Commercial Electricity,Gradient,2020,2050,-10,%
+Doncaster,Commercial Electricity,Gradient,2020,2050,-10,%
+Sheffield,Commercial Gas,Gradient,2020,2050,-10,%
+Barnsley,Commercial Gas,Gradient,2020,2050,-10,%
+Rotherham,Commercial Gas,Gradient,2020,2050,-10,%
+Doncaster,Commercial Gas,Gradient,2020,2050,-10,%
+Sheffield,Commercial 'Other Fuels',Gradient,2020,2050,-10,%
+Barnsley,Commercial 'Other Fuels',Gradient,2020,2050,-10,%
+Rotherham,Commercial 'Other Fuels',Gradient,2020,2050,-10,%
+Doncaster,Commercial 'Other Fuels',Gradient,2020,2050,-10,%
+Sheffield,Domestic Electricity,Gradient,2020,2050,-10,%
+Barnsley,Domestic Electricity,Gradient,2020,2050,-10,%
+Rotherham,Domestic Electricity,Gradient,2020,2050,-10,%
+Doncaster,Domestic Electricity,Gradient,2020,2050,-10,%
+Sheffield,Domestic Gas,Gradient,2020,2050,-10,%
+Barnsley,Domestic Gas,Gradient,2020,2050,-10,%
+Rotherham,Domestic Gas,Gradient,2020,2050,-10,%
+Doncaster,Domestic Gas,Gradient,2020,2050,-10,%
+Sheffield,Domestic 'Other Fuels',Gradient,2020,2050,-10,%
+Barnsley,Domestic 'Other Fuels',Gradient,2020,2050,-10,%
+Rotherham,Domestic 'Other Fuels',Gradient,2020,2050,-10,%
+Doncaster,Domestic 'Other Fuels',Gradient,2020,2050,-10,%
+Sheffield,Industry Electricity,Gradient,2020,2050,-10,%
+Barnsley,Industry Electricity,Gradient,2020,2050,-10,%
+Rotherham,Industry Electricity,Gradient,2020,2050,-10,%
+Doncaster,Industry Electricity,Gradient,2020,2050,-10,%
+Sheffield,Industry Gas,Gradient,2020,2050,-10,%
+Barnsley,Industry Gas,Gradient,2020,2050,-10,%
+Rotherham,Industry Gas,Gradient,2020,2050,-10,%
+Doncaster,Industry Gas,Gradient,2020,2050,-10,%
+Sheffield,Large Industrial Installations,Gradient,2020,2050,-10,%
+Barnsley,Large Industrial Installations,Gradient,2020,2050,-10,%
+Rotherham,Large Industrial Installations,Gradient,2020,2050,-10,%
+Doncaster,Large Industrial Installations,Gradient,2020,2050,-10,%
+Sheffield,Industry 'Other Fuels',Gradient,2020,2050,-10,%
+Barnsley,Industry 'Other Fuels',Gradient,2020,2050,-10,%
+Rotherham,Industry 'Other Fuels',Gradient,2020,2050,-10,%
+Doncaster,Industry 'Other Fuels',Gradient,2020,2050,-10,%
+Sheffield,Agriculture,Gradient,2020,2050,-10,%
+Barnsley,Agriculture,Gradient,2020,2050,-10,%
+Rotherham,Agriculture,Gradient,2020,2050,-10,%
+Doncaster,Agriculture,Gradient,2020,2050,-10,%
+Sheffield,LULUCF Net Emissions: Forest land,Gradient,2020,2050,-10,%
+Barnsley,LULUCF Net Emissions: Forest land,Gradient,2020,2050,-10,%
+Rotherham,LULUCF Net Emissions: Forest land,Gradient,2020,2050,-10,%
+Doncaster,LULUCF Net Emissions: Forest land,Gradient,2020,2050,-10,%
+Sheffield,LULUCF Net Emissions: Cropland,Gradient,2020,2050,-10,%
+Barnsley,LULUCF Net Emissions: Cropland,Gradient,2020,2050,-10,%
+Rotherham,LULUCF Net Emissions: Cropland,Gradient,2020,2050,-10,%
+Doncaster,LULUCF Net Emissions: Cropland,Gradient,2020,2050,-10,%
+Sheffield,LULUCF Net Emissions: Grassland,Gradient,2020,2050,-10,%
+Barnsley,LULUCF Net Emissions: Grassland,Gradient,2020,2050,-10,%
+Rotherham,LULUCF Net Emissions: Grassland,Gradient,2020,2050,-10,%
+Doncaster,LULUCF Net Emissions: Grassland,Gradient,2020,2050,-10,%
+Sheffield,LULUCF Net Emissions: Wetlands,Gradient,2020,2050,-10,%
+Barnsley,LULUCF Net Emissions: Wetlands,Gradient,2020,2050,-10,%
+Rotherham,LULUCF Net Emissions: Wetlands,Gradient,2020,2050,-10,%
+Doncaster,LULUCF Net Emissions: Wetlands,Gradient,2020,2050,-10,%
+Sheffield,LULUCF Net Emissions: Settlements,Gradient,2020,2050,-10,%
+Barnsley,LULUCF Net Emissions: Settlements,Gradient,2020,2050,-10,%
+Rotherham,LULUCF Net Emissions: Settlements,Gradient,2020,2050,-10,%
+Doncaster,LULUCF Net Emissions: Settlements,Gradient,2020,2050,-10,%
+Sheffield,Public Sector Electricity,Gradient,2020,2050,-10,%
+Barnsley,Public Sector Electricity,Gradient,2020,2050,-10,%
+Rotherham,Public Sector Electricity,Gradient,2020,2050,-10,%
+Doncaster,Public Sector Electricity,Gradient,2020,2050,-10,%
+Sheffield,Public Sector Gas,Gradient,2020,2050,-10,%
+Barnsley,Public Sector Gas,Gradient,2020,2050,-10,%
+Rotherham,Public Sector Gas,Gradient,2020,2050,-10,%
+Doncaster,Public Sector Gas,Gradient,2020,2050,-10,%
+Sheffield,Public Sector 'Other Fuels',Gradient,2020,2050,-10,%
+Barnsley,Public Sector 'Other Fuels',Gradient,2020,2050,-10,%
+Rotherham,Public Sector 'Other Fuels',Gradient,2020,2050,-10,%
+Doncaster,Public Sector 'Other Fuels',Gradient,2020,2050,-10,%
+Sheffield,Road Transport (A roads),Gradient,2020,2050,-10,%
+Barnsley,Road Transport (A roads),Gradient,2020,2050,-10,%
+Rotherham,Road Transport (A roads),Gradient,2020,2050,-10,%
+Doncaster,Road Transport (A roads),Gradient,2020,2050,-10,%
+Sheffield,Road Transport (Motorways),Gradient,2020,2050,-10,%
+Barnsley,Road Transport (Motorways),Gradient,2020,2050,-10,%
+Rotherham,Road Transport (Motorways),Gradient,2020,2050,-10,%
+Doncaster,Road Transport (Motorways),Gradient,2020,2050,-10,%
+Sheffield,Road Transport (Minor roads),Gradient,2020,2050,-10,%
+Barnsley,Road Transport (Minor roads),Gradient,2020,2050,-10,%
+Rotherham,Road Transport (Minor roads),Gradient,2020,2050,-10,%
+Doncaster,Road Transport (Minor roads),Gradient,2020,2050,-10,%
+Sheffield,Diesel Railways,Gradient,2020,2050,-10,%
+Barnsley,Diesel Railways,Gradient,2020,2050,-10,%
+Rotherham,Diesel Railways,Gradient,2020,2050,-10,%
+Doncaster,Diesel Railways,Gradient,2020,2050,-10,%
+Sheffield,Transport Other,Gradient,2020,2050,-10,%
+Barnsley,Transport Other,Gradient,2020,2050,-10,%
+Rotherham,Transport Other,Gradient,2020,2050,-10,%
+Doncaster,Transport Other,Gradient,2020,2050,-10,%
