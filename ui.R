@@ -99,11 +99,8 @@ ui <- navbarPage('Regional Emissions Budgeting Framework',
                                                 value = NULL),
                                    actionButton('deleterow_button', label = 'Delete')
                                    )
-                            ),# eol column
-                            fluidRow(
+                            )# eol column
 
-
-                            )    # eol fluidRow
                           ) # eol fluidpage
 
                  ),# end of 'scenario'

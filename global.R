@@ -1,11 +1,4 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+### === 1) PACKAGES === ###
 
 library(shiny) # Shiny package
 library(ggplot2) # Used to create plots which are then rendered by plotly
@@ -16,20 +9,9 @@ library(googledrive) # Used for storing scenarios between user sessions
 
 
 
-### === GLOBAL === ###
-## This code concerns the Google drive integration, using my own key - this should be updated to the details of whoever maintains
-# the files in future.
-options(
-  # whenever there is one account token found, use the cached token
-  gargle_oauth_email = TRUE,
-  # specify auth tokens should be stored in a hidden directory ".secrets"
-  gargle_oauth_cache = here::here(".secrets")
-)
 
-shared_drive <- 'ODA-REBF' # The name of the drive folder
-shared_drive_loc <- googledrive::shared_drive_get(name = shared_drive) # Returns the path for the selected drive folder
 
-drive_files <- drive_find(shared_drive = shared_drive) # List files in drive folder
+### === 3) FUNCTIONS === ###
 
 # This function checks which scenario files are already available locally and downloads only those which are missing.
 downloadScenarios <- function(drive_files){
@@ -43,7 +25,6 @@ downloadScenarios <- function(drive_files){
   }
 }
 
-downloadScenarios(drive_files) # Run the downloadScenarios function. This is done once per application session.
 
 # This function writes the local scenarios to the drive folder. It matches names and only uploads scenarios which are unique to the current session.
 writeScen2Drive <- function(){
@@ -118,6 +99,7 @@ ss_expander_internal <- function(user_ss){
   return(user_ss)
 } # Convert from user input SS to usable ones in data (internal to ss_expander())
 apply_intervention <- function(beis_min, ir){
+
   data_groups <- beis_min %>% group_by(lan, ss) %>% group_split()
   data_keys <- beis_min %>% group_by(lan, ss) %>% group_keys()
   data_selections <- dplyr::select(ir, lan, ss)
@@ -195,6 +177,25 @@ apply_scenario <- function(beis_data, scenario_df){
   }
   return(new_data)
 }
+
+
+### === 3) GOOGLE DRIVE INTEGRATION === ###
+
+## This code concerns the Google drive integration, using my own key - this should be updated to the details of whoever maintains
+# the files in future.
+options(
+  # whenever there is one account token found, use the cached token
+  gargle_oauth_email = TRUE,
+  # specify auth tokens should be stored in a hidden directory ".secrets"
+  gargle_oauth_cache = here::here(".secrets")
+)
+
+shared_drive <- 'ODA-REBF' # The name of the drive folder
+shared_drive_loc <- googledrive::shared_drive_get(name = shared_drive) # Returns the path for the selected drive folder
+
+drive_files <- drive_find(shared_drive = shared_drive) # List files in drive folder
+
+downloadScenarios(drive_files) # Run the downloadScenarios function. This is done once per application session.
 
 # = DATA = #
 data_0 <- readr::read_csv(here::here('data/datasets/beis_min.csv')) # The default data set
